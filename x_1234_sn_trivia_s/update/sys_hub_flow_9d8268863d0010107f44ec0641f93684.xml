@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_trivia_spoke</internal_name>
+        <label_cache>[{"name":"867fb7c3-73e6-4a9e-8f22-4b768d118fa3.variable","label":"2➛Answer","reference_display":"Answer","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"59cdf1c6-3ba2-4bc2-bdb8-d488e31771ea"}},{"name":"aaba90c9-0562-424e-acb9-e40460b00282.variable","label":"1➛Difficulty","reference_display":"Difficulty","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1f2eff60-b57b-40f2-a7d4-3391ed467d44"}},{"name":"aaba90c9-0562-424e-acb9-e40460b00282.variable1","label":"1➛Question","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"176bae56-25f7-4d6c-a30e-cf4a0b38a58f"}},{"name":"aaba90c9-0562-424e-acb9-e40460b00282.variable12","label":"1➛Category","reference_display":"Category","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"52f71139-851f-419e-b925-0ef95153c847"}},{"name":"aaba90c9-0562-424e-acb9-e40460b00282.variable123","label":"1➛Question ID","reference_display":"Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ed20e79b-1629-490f-82c5-28a24b180dcd"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name> Test Trivia Spoke</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:48:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d8268863d0010107f44ec0641f93684</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name> Test Trivia Spoke</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN Trivia Spoke" source="x_1234_sn_trivia_s">741bd8823d0010107f44ec0641f936d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_update_name>sys_hub_flow_9d8268863d0010107f44ec0641f93684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d8268863d0010107f44ec0641f93684"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9d8268863d0010107f44ec0641f93684"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=9d8268863d0010107f44ec0641f93684^sys_idNOT IN20f4c5c63d4010107f44ec0641f93624,892c200e3d0010107f44ec0641f9363a,bae224c63d0010107f44ec0641f93677"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>20f4c5c63d4010107f44ec0641f93624</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>680af869-a72c-4db2-8411-5164896696dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20f4c5c63d4010107f44ec0641f93624"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>28f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>2cf4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>#random</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>ecf4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=20f4c5c63d4010107f44ec0641f93624"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>a4f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>e0f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value> Trivia Question:{{aaba90c9-0562-424e-acb9-e40460b00282.variable1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_username</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>6cf4c5c63d4010107f44ec0641f93625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>20f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">fc0ba4ca3d0010107f44ec0641f93639</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 15:30:20</sys_created_on>
+        <sys_id>892c200e3d0010107f44ec0641f9363a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>867fb7c3-73e6-4a9e-8f22-4b768d118fa3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=892c200e3d0010107f44ec0641f9363a"/>
+    <sys_element_mapping action="delete_multiple" query="id=892c200e3d0010107f44ec0641f9363a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question_id</field>
+        <id>892c200e3d0010107f44ec0641f9363a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 15:30:20</sys_created_on>
+        <sys_id>912c200e3d0010107f44ec0641f9363c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 15:30:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fc0ba4ca3d0010107f44ec0641f93639</table>
+        <value>{{aaba90c9-0562-424e-acb9-e40460b00282.variable123}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">9cf0e8463d0010107f44ec0641f936e8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:50:01</sys_created_on>
+        <sys_id>bae224c63d0010107f44ec0641f93677</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>aaba90c9-0562-424e-acb9-e40460b00282</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bae224c63d0010107f44ec0641f93677"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9d8268863d0010107f44ec0641f93684^sys_idNOT INfae260c63d0010107f44ec0641f936ae"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:50:01</sys_created_on>
+        <sys_id>fae260c63d0010107f44ec0641f936ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fae260c63d0010107f44ec0641f936ae"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fae260c63d0010107f44ec0641f936ae</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:50:01</sys_created_on>
+        <sys_id>7ee224c63d0010107f44ec0641f93674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 14:50:01</sys_updated_on>
+        <value>2020-04-10 13:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9d8268863d0010107f44ec0641f93684^sys_idNOT IN518260c63d0010107f44ec0641f93672"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9d8268863d0010107f44ec0641f93684</id>
+        <name> Test Trivia Spoke</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:48:17</sys_created_on>
+        <sys_id>518260c63d0010107f44ec0641f93672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 14:48:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9d8268863d0010107f44ec0641f93684^sys_idNOT IN20f4c5c63d4010107f44ec0641f93624,892c200e3d0010107f44ec0641f9363a,bae224c63d0010107f44ec0641f93677"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>20f4c5c63d4010107f44ec0641f93624</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>680af869-a72c-4db2-8411-5164896696dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20f4c5c63d4010107f44ec0641f93624"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>28f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>slackbot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>2cf4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>#random</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20f4c5c63d4010107f44ec0641f93624</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>ecf4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=20f4c5c63d4010107f44ec0641f93624"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>a4f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>e0f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value> Trivia Question:{{aaba90c9-0562-424e-acb9-e40460b00282.variable1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_username</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>6cf4c5c63d4010107f44ec0641f93625</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>20f4c5c63d4010107f44ec0641f93624</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 17:18:41</sys_created_on>
+        <sys_id>20f4c5c63d4010107f44ec0641f93626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">fc0ba4ca3d0010107f44ec0641f93639</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 15:30:20</sys_created_on>
+        <sys_id>892c200e3d0010107f44ec0641f9363a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>867fb7c3-73e6-4a9e-8f22-4b768d118fa3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=892c200e3d0010107f44ec0641f9363a"/>
+    <sys_element_mapping action="delete_multiple" query="id=892c200e3d0010107f44ec0641f9363a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question_id</field>
+        <id>892c200e3d0010107f44ec0641f9363a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 15:30:20</sys_created_on>
+        <sys_id>912c200e3d0010107f44ec0641f9363c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 15:30:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fc0ba4ca3d0010107f44ec0641f93639</table>
+        <value>{{aaba90c9-0562-424e-acb9-e40460b00282.variable123}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">9cf0e8463d0010107f44ec0641f936e8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Test Trivia Spoke">9d8268863d0010107f44ec0641f93684</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 14:50:01</sys_created_on>
+        <sys_id>bae224c63d0010107f44ec0641f93677</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">741bd8823d0010107f44ec0641f936d2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 17:18:41</sys_updated_on>
+        <ui_id>aaba90c9-0562-424e-acb9-e40460b00282</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bae224c63d0010107f44ec0641f93677"/>
+</record_update>
